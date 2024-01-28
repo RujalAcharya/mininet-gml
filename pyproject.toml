@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mininet-gml"
+version = "0.1.0"
+description = ""
+authors = ["Rujal Acharya <076bei029.rujal@pcampus.edu.np>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mininet = "^2.3.0-alpha.6"
+networkx = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
